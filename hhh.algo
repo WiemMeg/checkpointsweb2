@@ -1,0 +1,105 @@
+ALGORITHM lire une phrase
+
+var phrase
+var index point
+var nombre de mots
+var  de voyelles
+
+DEBUT
+p= "je suis ici."
+if p [ long ( je suis ici.)] = 12
+index point <= long (phrase) =.
+phrase [index point]
+{ 
+    FOR phrase de [i], i<length [ phrase,i++]
+
+}
+nombre de mots = "nombre despaces" + 1;
+
+{nombre de voyelles dans p {a,e,i,o,u}
+FOR ( phrase [i], i< length i++,)
+if phrase [i]=nombre
+somme<= nombre de voyelles++
+}
+FIN
+
+ALGORITHM somme 
+
+VAR tous les éléments présents 
+p1=[2,4,1,9,3]
+p2=[3,1,7,9]
+s=0
+s-s+1
+
+{
+    p1
+    S <- s+2 (2 n existe pas dans le tableau p2)
+    S <- s+4 (4 n existe pas dans le tableau p2)
+    S=6
+    p2
+    s=6+7
+    s=13
+}
+
+FOR P1, p<p1 length-1 
+{if p1 [i]!= p2 [i]
+s<- s+1}
+
+ALGORITHM Dot product
+Fonction dot_product(v1, v2)
+IF length v1 != v2 return false
+
+Initialiser la variable ps à 0
+Entrées :
+
+v1 : vecteur de IR
+v2 : vecteur de IR
+n : taille des vecteurs v1 et v2 (nombre de composantes)
+Sortie :
+
+ps : produit scalaire de v1 et v2
+Début
+    ps ← 0    // Initialisation du produit scalaire à 0
+
+Pour i allant de 1 à n faire
+    ps ← ps + v1[i] * v2[i]    // Calcul du produit scalaire
+Fin Pour
+
+Retourner ps    // Retourne le résultat du produit scalaire
+Fin
+
+ALGORITHM Produit_Dot
+    Début
+        n ← nombre de paires de vecteurs donnés
+        Pour i allant de 1 à n 
+            Lire les vecteurs u et v
+            Si le produit scalaire de u et v = 0 
+                Afficher "Les vecteurs u et v sont orthogonaux"
+            Sinon
+                Afficher "Les vecteurs u et v ne sont pas orthogonaux"
+           
+    Fin
+
+    ALGORITHM tri par insertion
+    
+    VAR x: INTEGER; 
+    VAR y : INTEGER;
+VAR tmp : INTEGER; 
+BEGIN 
+  tmp := x; 
+  x := y; 
+  y := tmp; 
+END 
+
+PROCEDURE bubble_sort(VAR tab : ARRAY_OF INTEGER) 
+VAR 
+   i,j,n : INTEGER; 
+BEGIN 
+   n := tab.length; 
+   FOR i FROM 0 TO n- 1 STEP 1  DO 
+       // Last i elements are already in place 
+       FOR j  FROM 0 TO n-i-1 STEP 1  DO 
+           IF (tab[j] > tab[j+1]) THEN 
+               swap(tab[j], tab[j+1]) 
+
+END 
